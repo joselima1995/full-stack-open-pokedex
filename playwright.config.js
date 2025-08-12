@@ -6,6 +6,7 @@ const config = {
     command: 'npm run start',
     url: 'http://localhost:5000',
     timeout: 120 * 1000,
+    reuseExistingServer: true,
   },
   timeout: 120 * 1000,
   use: {
