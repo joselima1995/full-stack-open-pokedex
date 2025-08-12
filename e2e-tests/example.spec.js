@@ -1,5 +1,5 @@
-const { test, describe, expect, beforeEach } = require('@playwright/test')
-
+const { test, describe, expect } = require('@playwright/test')
+//beforeEach
 describe('Pokedex', () => {
   test('front page can be opened', async ({ page }) => {
     await page.goto('')
