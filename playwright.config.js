@@ -4,13 +4,13 @@ const config = {
   testMatch: '**/*.spec.js', // Or .ts, whatever your E2E tests use
   webServer: {
     command: 'npm run start',
-    url: 'http://localhost:5000',
+    url: 'http://localhost:8080',
     timeout: 120 * 1000,
     reuseExistingServer: true,
   },
   timeout: 120 * 1000,
   use: {
-    baseURL: 'http://localhost:5000/',
+    baseURL: 'http://localhost:8080/',
   },
 }
 
