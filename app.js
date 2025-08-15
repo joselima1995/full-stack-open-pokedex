@@ -12,7 +12,7 @@ app.listen(PORT, () => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('4')
+  res.send('5')
 })
 
 
